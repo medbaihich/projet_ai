@@ -4,7 +4,7 @@ import joblib
 from sklearn.linear_model import LogisticRegression
 
 # Charger le modèle de prédiction
-model = joblib.load(r'C:\Users\baihich\Desktop\application\modelLog.joblib')
+model = joblib.load(r'C:\Users\baihich\Desktop\git\application\modelLog.joblib')
 
 # Titre de l'application
 st.title('Prédiction du Diagnostic de la Tumeur Mammaire')
